@@ -3,12 +3,16 @@
   font-weight: lighter;
   font-style: oblique;
   color: #003368;
+  margin-top: 50px;
 }
 h1 {
-  color:#003370;
+  color:#003365;
   text-align: center;
   font-family: fantasy;
 }
-body {
-  background-color:
+
+#word {
+  text-align: center;
+  color: #003370;
+  margin-top: 200px;
 }

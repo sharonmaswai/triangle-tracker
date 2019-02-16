@@ -1,19 +1,19 @@
-function tri (){
-  var side x=parseInt(document.getElementById('x').value);
-  var side y=parseInt(document.getElementById('y').value);
-  var side z=parseInt(document.getElementById('z').value);
+function tri(){
+  var sidex=parseInt(document.getElementById('x').value);
+  var sidey=parseInt(document.getElementById('y').value);
+  var sidez=parseInt(document.getElementById('z').value);
 
-if(sidex+sidey>sidez && sidex+side z>sidez=x && sidey+sidez>sidex) {
-  if (side x===side z && side y===sidex) {
-    alert("Equilateral.")
+if (sidex+sidey>sidez && sidex+sidez>sidex && sidey+sidez>sidex){
+  if (sidex===sidez && sidey===sidex & sidey===sidez) {
+    alert("Equilateral.");
   }
-  else if (sidex!=sidey && sidez!=sidey side z!=sidex) {
-    alert("Scalene.")
+  else if (sidex!==sidey && sidez!==sidey && sidez!==sidex){
+    alert("Scalene.");
   }
  else {
-    alert("Isosceles.")
+    alert("Isosceles.");
   }
- } esle {
-   alert("Is not a triangle")
+ } else{
+   alert("Is not a triangle");
  }
 }

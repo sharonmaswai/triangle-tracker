@@ -1,26 +1,29 @@
-
 <!DOCTYPE html>
-<html lang="en" dir=">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
   <head>
+  <div class="top">
     <meta charset="utf-8">
-    <title>triangle tracker app</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Triangle Tracker</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
   </head>
+
+  </div>
+
   <body>
-    <h1>Triangle Tracker</h1>
-    <p>To determine the type of triangle, enter the length of the sides below.</p>
-    <h2>side x:<input type="number" id="x" value=""></h2>
-    <br>
-    <h2>side y:<input type="number" id="y" value=""></h2>
-    <br>
-    <h2>side z:<input type="number" id="z" value=""></h2>
-    <input type="button" name="submit" value="submit" onclick="tri">
-    <input type="button" name="reload" value="reload" onclick="tri">
-    <p id="answer"></p>
 
-    <script type="text/javascript" src="js/script.js"></>
+    <p>To find out the type of triangle enter the length of the sides in the provided slots below:</p>
+  <div class="sides">
+    <h2>Side x: <input type="text" name="sidex" value="x"> </h2>
+    <h2>side y: <input type="text" name="sidey" value="y"> </h2>
+    <h2>side z: <input type="text" name="side z" value="z"> </h2>
+    <p> <input type="submit" name="submit" value="submit" onclick="tri ()"> </p>
 
+  </div>
 
+    <script type="text/javascript" src="js/script.js">
+
+    </script>
 
   </body>
 </html>

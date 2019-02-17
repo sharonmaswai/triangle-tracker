@@ -2,9 +2,9 @@ function tri(){
   var sidex=parseInt(document.getElementById('x').value);
   var sidey=parseInt(document.getElementById('y').value);
   var sidez=parseInt(document.getElementById('z').value);
-  
 
-if (sidex+sidey>sidez && sidex+sidez>sidex && sidey+sidez>sidex){
+
+if (sidex+sidey>sidez && sidex+sidez>sidey && sidey+sidez>sidex){
   if (sidex===sidez && sidey===sidex & sidey===sidez) {
     alert("Equilateral.")
   }

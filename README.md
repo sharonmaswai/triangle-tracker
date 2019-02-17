@@ -10,6 +10,8 @@ If you enter two similar digits and one different in the input fields i.e; 7,5,5
 If the digits entered are different e.g 5,6,7; alert will be Scalene.
 If you enter anything other than a number e.g; alert will be "not a triangle".
 If you do not enter anything the alert will be "not a triangle."
+If you enter digits where the sum of two sides is equal to to the other side;eg 7,2,3 alert will be "not a triangle."
+If you enter digits where the sum of two sides is equal to the other side; eg 10,5,5 (forms a straight line); alert will be "not a triangle."
 
 #Bugs
 At the moment there are no known bugs, however if you should run into any let me know through the email address provided below.

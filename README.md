@@ -3,7 +3,7 @@
 This web page is used for determining the type the type of triangle (Equilateral, Isosceles and Scalene) by analyzing the lengths of the sides entered. It also determines based on the said lengths whether it is a triangle or not.
 #Setup/Installation Requirements
 To clone the triangle-tracker repository, you need to install git into your computer.
-The clonning command for the repository ~ git clone (https://sharonmaswai.github.io/triangle-tracker/). Thi will enable you to have the repository in your local directory.
+The clonning command for the repository ~ git clone (https://sharonmaswai.github.io/triangle-tracker/). This will enable you to have the repository in your local directory.
 #BDD
 If you enter three similar digits in the input fields i.e; 5,5,5; alert is Equilateral.
 If you enter two similar digits and one different in the input fields i.e; 7,5,5; alert is Isosceles.

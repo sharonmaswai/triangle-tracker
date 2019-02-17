@@ -1,4 +1,5 @@
 ##{TRIANGLE TRACKER}
+##By Sharon Maswai
 #Description
 This web page is used for determining the type the type of triangle (Equilateral, Isosceles and Scalene) by analyzing the lengths of the sides entered. It also determines based on the said lengths whether it is a triangle or not.
 #Setup/Installation Requirements

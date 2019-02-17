@@ -2,25 +2,21 @@
 #Description
 This web page is used for determining the type the type of triangle (Equilateral, Isosceles and Scalene) by analyzing the lengths of the sides entered. It also determines based on the said lengths whether it is a triangle or not.
 #Setup/Installation Requirements
-To clone the triangle-tracker repository, you
-BDD
-Behaviour	Input	Output
-Nothing typed on the filled	,,_	not a number
-If only one field is filled	2,,	not a number
-If two fields are filled	2,4,_	not a number
-If all fields are not equal	2,3,4	Scalene triangle
-If two sides are equal	5,5,8	Isosceles triangle
-If three sides are equal	3,3,3	Equilateral triangles
-If the sum of two sides is <= third	4,4,8	not a triangle
-If one enters a non-numerical value	w,3,4	not a number
-Known Bugs
-Not aware of any bugs so far, please let me know if you run into any at the provided contacts below
-Technologies Used
-HTML
-CSS
-JavaScript
-Git
-Support and contact details
-You can find me at denzelwash97@gmail.com or Denzel Washington .O. in github
-License
-{Determine the license under which this application can be used. See below for more details on licensing.} Copyright (c) {2018} Denzel
+To clone the triangle-tracker repository, you need to install git into your computer.
+The clonning command for the repository ~ git clone (https://sharonmaswai.github.io/triangle-tracker/). Thi will enable you to have the repository in your local directory.
+#BDD
+If you enter three similar digits in the input fields i.e; 5,5,5; alert is Equilateral.
+If you enter two similar digits and one different in the input fields i.e; 7,5,5; alert is Isosceles.
+If the digits entered are different e.g 5,6,7; alert will be Scalene.
+If you enter anything other than a number e.g; alert will be "not a triangle".
+If you do not enter anything the alert will be "not a triangle."
+
+#Bugs
+At the moment there are no known bugs, however if you should run into any let me know through the email address provided below.
+#Languages and technologies used
+CSS, HTML, Git Javascript.
+#Contact Information
+email address: chepmaswai@gmail.com
+github: sharonmaswai
+#License
+ Copyright (2019) Maswai

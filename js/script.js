@@ -1,4 +1,4 @@
-function tri(){
+function tri (){
   var sidex=parseInt(document.getElementById('x').value);
   var sidey=parseInt(document.getElementById('y').value);
   var sidez=parseInt(document.getElementById('z').value);
@@ -6,16 +6,16 @@ function tri(){
 
 if (sidex+sidey>sidez && sidex+sidez>sidey && sidey+sidez>sidex){
   if (sidex===sidez && sidey===sidex & sidey===sidez) {
-    alert("Equilateral.")
+    document.getElementById("answer").innerHTML="Equilateral";
   }
   else if (sidex!==sidey && sidez!==sidey && sidez!==
   sidex){
-    alert("Scalene.")
+  document.getElementById("answer").innerHTML="Scalene";
   }
  else {
-    alert("Isosceles.")
+  document.getElementById("answer").innerHTML="Isosceles";
   }
  } else{
-   alert("Is not a triangle")
+   document.getElementById("answer").innerHTML="Not a triangle";
  }
 }

@@ -11,11 +11,17 @@ The clonning command for the repository ~ git clone (https://sharonmaswai.github
 
 #BDD
 If you enter three similar digits in the input fields i.e; 5,5,5; alert is Equilateral.
+
 If you enter two similar digits and one different in the input fields i.e; 7,5,5; alert is Isosceles.
+
 If the digits entered are different e.g 5,6,7; alert will be Scalene.
+
 If you enter anything other than a number e.g; alert will be "not a triangle".
+
 If you do not enter anything the alert will be "not a triangle."
+
 If you enter digits where the sum of two sides is equal to to the other side;eg 7,2,3 alert will be "not a triangle."
+
 If you enter digits where the sum of two sides is equal to the other side; eg 10,5,5 (forms a straight line); alert will be "not a triangle."
 
 #Bugs
